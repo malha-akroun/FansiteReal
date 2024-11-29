@@ -90,3 +90,24 @@ a{
 p{
     text-align: justify;
 }
+button {
+    background-color: #6c5ce7; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 15px 30px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 25px; /* Bords arrondis */
+    font-size: 16px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: all 0.3s ease; /* Transition fluide */
+  }
+  button:hover {
+    background-color: #5e54e3; /* Couleur légèrement plus sombre au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre portée au survol */
+  }
+  button:active {
+    transform: scale(0.98); /* Réduction de la taille au clic */
+    box-shadow: none; /* Retrait de l'ombre au clic */
+  }
