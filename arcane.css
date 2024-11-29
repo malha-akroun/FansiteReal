@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #dbc8d7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+  
+header nav  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+  
+header nav li {
+    display: inline-block;
+    margin-right: 20px;
+    gap: 3%;
+}
+  
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.Cases{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    justify-content: space-around;
+  
+}
+body{
+    background-color: rgb(80, 68, 68);
+
+}
+.Case{
+    padding: 1%;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    border-radius: 2rem;
+    background-color: #89A9AE;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    }
+.Personnages{
+    gap: 20px;
+    padding: 1%;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    border-radius: 2rem;
+    background-color: #89A9AE;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+} 
+.image{
+    max-width: 300px;
+}
+#backimage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.tete{
+    max-width: 140px;
+    max-height: 230px;
+    border: none ;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+p{
+    text-align: justify;
+}
+button {
+    background-color: #6c5ce7; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 15px 30px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 25px; /* Bords arrondis */
+    font-size: 16px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: all 0.3s ease; /* Transition fluide */
+  }
+  button:hover {
+    background-color: #5e54e3; /* Couleur légèrement plus sombre au survol */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre portée au survol */
+  }
+  button:active {
+    transform: scale(0.98); /* Réduction de la taille au clic */
+    box-shadow: none; /* Retrait de l'ombre au clic */
+  }
