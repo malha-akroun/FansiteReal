@@ -89,9 +89,6 @@ a{
 }
 p{
     text-align: justify;
-<<<<<<< HEAD
-}
-=======
 }
 button {
     background-color: #6c5ce7; /* Couleur de fond */
@@ -114,4 +111,3 @@ button {
     transform: scale(0.98); /* Réduction de la taille au clic */
     box-shadow: none; /* Retrait de l'ombre au clic */
   }
->>>>>>> Alex
