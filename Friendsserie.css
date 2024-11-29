@@ -10,7 +10,7 @@ body{
     height: 100%;
 }
 header {
-    background-color: #d2c4cf;
+    background-color: #5293c2;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -42,21 +42,18 @@ main {
     flex-direction: center;
     align-items: center;
     padding: 0;
-    background-color: rgb(121, 109, 120);
+    background-color: rgb(244, 233, 243);
 }
   
 section {
     margin-bottom: 40px;
 }
   
-section h2 {
-    font-weight: bold;
-    margin-top: 0;
-}
+
   
   /* Styles pour le pied de page */
 footer {
-    background-color: #dbbcd8;
+    background-color: #5293c2;
     color: #fff;
     padding: 5px;
     text-align: center;
@@ -82,8 +79,9 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 4%;
-   
-
+    border: 1px solid #6d2222;
+    filter: drop-shadow(30px 10 px 40px);
+    
 }
 .images img{
     flex:1;
@@ -97,7 +95,45 @@ footer {
     transform: scale(1.1);
     
 }
-frame{
-    width: 100vw;
-    height: 100vh;
+
+@media (max-width: 3500px) {
+    .bloc {
+      flex: 1 1 100%; /* Chaque bloc prend toute la largeur sur les petits écrans */
+    }
 }
+@media (max-width: 768px) {
+    .bloc {
+      flex: 1 1 calc(50% - 40px); /* Chaque bloc prend 1/2 de la largeur sur les tablettes */
+    }
+}
+.bloc-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+.bloc {
+    background-color: rgb(190, 197, 243);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 1 1 calc(33.33% - 40px); /* Chaque bloc prend 1/3 de la largeur moins les marges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
