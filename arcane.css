@@ -111,3 +111,23 @@ button {
     transform: scale(0.98); /* Réduction de la taille au clic */
     box-shadow: none; /* Retrait de l'ombre au clic */
   }
+  footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #5293c2;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    color: #020c11;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
