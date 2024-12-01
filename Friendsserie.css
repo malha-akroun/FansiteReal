@@ -97,6 +97,10 @@ footer {
     width: 10%;
     height: 200px;
     object-fit: cover;
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    transition: all ease 0.4s;
+    cursor: pointer;
    
 }
 .images img:hover{
