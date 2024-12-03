@@ -196,8 +196,8 @@ section {
     color: #37474F;
     margin-bottom: 10px;
     padding: 15px;
-    background-color: #b8f7bf; /* Bleu pastel */
-    border: 1px solid #80DEEA; /* Bordure bleu clair */
+    background-color: #b8f7bf;
+    border: 1px solid #80DEEA;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
